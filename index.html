@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- --- SEO Optimization Tags --- -->
+  <title>IK_PEDIA | Tech Made Simple - Custom Web Development</title>
+  <meta name="description" content="IK_PEDIA builds modern, ultra-fast, responsive, and custom websites for small businesses and creative portfolios. Get your premium website with fixed pricing today.">
+  <meta name="keywords" content="web development, freelance, landing page, custom website, e-commerce site, portfolio website, website revamp, website maintenance, tech made simple, IKPEDIA">
+  <meta name="author" content="IK_PEDIA">
+  
+  <!-- Open Graph / Social Sharing Meta Tags -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://ikpedia.dev/">
+  <meta property="og:title" content="IK_PEDIA | Tech Made Simple - Custom Web Development">
+  <meta property="og:description" content="Premium, custom web development for small businesses and portfolios. Fixed pricing. Direct communication. Fast-loading websites.">
+  <meta property="og:image" content="assets/logo.jpg">
+  
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="style.css">
+  
+  <!-- Favicon (Fallback to brand logo) -->
+  <link rel="icon" type="image/jpeg" href="assets/logo.jpg">
+</head>
+<body>
+
+  <!-- --- Seamless Hexagonal Grid & Glow Backdrops --- -->
+  <div class="hex-grid-bg" aria-hidden="true"></div>
+  <div class="ambient-glow-1" aria-hidden="true"></div>
+  <div class="ambient-glow-2" aria-hidden="true"></div>
+
+  <!-- --- Sticky Header / Blurred Navbar --- -->
+  <header class="navbar-wrapper">
+    <div class="container navbar">
+      <a href="#" class="nav-brand" id="brand-logo-link">
+        <img src="assets/logo.jpg" alt="IK_PEDIA circular laptop logo">
+        <span><span class="chrome-text-silver">IKP</span><span class="brand-edia">EDIA</span></span>
+      </a>
+      
+      <!-- Nav Links Menu -->
+      <nav aria-label="Main Navigation">
+        <ul class="nav-links" id="nav-menu">
+          <li><a href="#services" class="nav-link">Services</a></li>
+          <li><a href="#process" class="nav-link">Process</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+      
+      <div class="nav-cta">
+        <a href="#contact" class="btn btn-glow-purple">Get a Website</a>
+      </div>
+      
+      <!-- Mobile Hamburger Button -->
+      <button class="mobile-nav-toggle" aria-label="Toggle Navigation Menu" aria-expanded="false" aria-controls="nav-menu" id="hamburger-btn">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- --- Hero Section with SVG Circuit Traces --- -->
+  <section class="hero-section" id="hero">
+    <!-- Faint background circuit trace overlay -->
+    <div class="circuit-overlay" aria-hidden="true">
+      <svg class="circuit-svg" viewBox="0 0 1440 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <linearGradient id="pulse-grad-hero" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#9D5CFF" stop-opacity="0" />
+            <stop offset="50%" stop-color="#B026FF" stop-opacity="1" />
+            <stop offset="100%" stop-color="#C77DFF" stop-opacity="0" />
+          </linearGradient>
+        </defs>
+        
+        <!-- Top Trace Line and Node -->
+        <path class="circuit-line line-1" d="M-50,150 L350,150 L450,250 L800,250 L880,170 L1150,170 L1250,270 L1500,270" stroke="rgba(157, 92, 255, 0.08)" stroke-width="1.5" />
+        <path class="circuit-pulse line-1" d="M-50,150 L350,150 L450,250 L800,250 L880,170 L1150,170 L1250,270 L1500,270" stroke="url(#pulse-grad-hero)" stroke-width="2" />
+        
+        <!-- Bottom Trace Line and Node -->
+        <path class="circuit-line line-2 delay-2" d="M1500,550 L1120,550 L1020,450 L750,450 L680,520 L420,520 L320,420 L-50,420" stroke="rgba(157, 92, 255, 0.08)" stroke-width="1.5" />
+        <path class="circuit-pulse line-2 delay-2" d="M1500,550 L1120,550 L1020,450 L750,450 L680,520 L420,520 L320,420 L-50,420" stroke="url(#pulse-grad-hero)" stroke-width="2" />
+        
+        <!-- Pulsing Connection Nodes -->
+        <circle class="circuit-node node-1 delay-1" cx="450" cy="250" r="4.5" fill="#B026FF" />
+        <circle class="circuit-node node-2 delay-3" cx="880" cy="170" r="4" fill="#9D5CFF" />
+        <circle class="circuit-node node-3 delay-2" cx="1020" cy="450" r="4.5" fill="#B026FF" />
+        <circle class="circuit-node node-4 delay-4" cx="420" cy="520" r="4" fill="#9D5CFF" />
+      </svg>
+    </div>
+    
+    <div class="container hero-grid">
+      <div class="hero-content reveal-left">
+        <div class="hero-tag">Tech Made Simple</div>
+        <h1 class="hero-title">
+          <span class="chrome-text-silver">We Code. We Deliver.</span><br>
+          <span class="chrome-text-purple">Websites That Work.</span>
+        </h1>
+        <p class="hero-subtitle">
+          We design and build ultra-fast, modern, and fully custom websites tailored to small businesses, online stores, and portfolios. No complex jargon, just high-performance results.
+        </p>
+        <div class="hero-buttons">
+          <a href="#contact" class="btn btn-glow-purple">Start Your Project</a>
+          <a href="#services" class="btn btn-outline">See Our Work</a>
+        </div>
+      </div>
+      
+      <div class="hero-visual reveal-right">
+        <div class="mockup-container">
+          <img src="assets/hero-laptop.png" alt="Premium mock up laptop illustrating clean custom web interfaces" class="mockup-img" loading="eager">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- --- Stats / Trust Strip Section --- -->
+  <section class="stats-section reveal">
+    <div class="container">
+      <div class="stats-glass-panel">
+        <div class="stats-grid">
+          <div class="stats-item">
+            <div class="stats-value chrome-text-silver">100%</div>
+            <div class="stats-label">Fully Custom</div>
+          </div>
+          <div class="stats-item">
+            <div class="stats-value chrome-text-purple">&lt; 2.0s</div>
+            <div class="stats-label">Fast Loading</div>
+          </div>
+          <div class="stats-item">
+            <div class="stats-value chrome-text-silver">Fixed</div>
+            <div class="stats-label">Pricing Structure</div>
+          </div>
+          <div class="stats-item">
+            <div class="stats-value chrome-text-purple">Direct</div>
+            <div class="stats-label">Communication</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- --- Services Section (6 Grid Cards) --- -->
+  <section class="services-section" id="services">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Our Capabilities</span>
+        <h2 class="section-title"><span class="chrome-text-silver">Services Built to</span> <span class="chrome-text-purple">Scale</span></h2>
+        <p class="section-subtitle">We build premium digital solutions designed to grow your business, showcase your talent, and deliver outstanding performance.</p>
+      </div>
+      
+      <div class="services-grid">
+        <!-- Service Card 1: Business Websites -->
+        <article class="service-card reveal">
+          <div class="service-card-img-wrapper">
+            <img src="assets/services/business.png" alt="Corporate business landing site mockup on multiple screens" class="service-card-img" loading="lazy">
+          </div>
+          <div class="service-card-content">
+            <h3 class="service-card-title">Business Websites</h3>
+            <p class="service-card-desc">Professional corporate websites that represent your brand, establish trust with clients, and convert visitors into loyal leads.</p>
+            <a href="#contact" class="service-card-link">
+              Start Project 
+              <svg width="12" height="12" viewBox="0 0 24 24"><path d="M5 3l3.057-3 11.943 12-11.943 12-3.057-3 9-9z"/></svg>
+            </a>
+          </div>
+        </article>
+        
+        <!-- Service Card 2: E-commerce Sites -->
+        <article class="service-card reveal">
+          <div class="service-card-img-wrapper">
+            <img src="assets/services/ecommerce.png" alt="Responsive online storefront showing shopping card checkout components" class="service-card-img" loading="lazy">
+          </div>
+          <div class="service-card-content">
+            <h3 class="service-card-title">E-commerce Sites</h3>
+            <p class="service-card-desc">Seamless digital store setups featuring intuitive shopping baskets, inventory systems, and secure transaction gateways built for performance.</p>
+            <a href="#contact" class="service-card-link">
+              Start Project 
+              <svg width="12" height="12" viewBox="0 0 24 24"><path d="M5 3l3.057-3 11.943 12-11.943 12-3.057-3 9-9z"/></svg>
+            </a>
+          </div>
+        </article>
+        
+        <!-- Service Card 3: Portfolio Sites -->
+        <article class="service-card reveal">
+          <div class="service-card-img-wrapper">
+            <img src="assets/services/portfolio.png" alt="Creative personal portfolio with clean grids and dynamic layouts" class="service-card-img" loading="lazy">
+          </div>
+          <div class="service-card-content">
+            <h3 class="service-card-title">Portfolio Sites</h3>
+            <p class="service-card-desc">Visually striking layouts designed for designers, photographers, developers, and creatives to display their best accomplishments.</p>
+            <a href="#contact" class="service-card-link">
+              Start Project 
+              <svg width="12" height="12" viewBox="0 0 24 24"><path d="M5 3l3.057-3 11.943 12-11.943 12-3.057-3 9-9z"/></svg>
+            </a>
+          </div>
+        </article>
+        
+        <!-- Service Card 4: Landing Pages -->
+        <article class="service-card reveal">
+          <div class="service-card-img-wrapper">
+            <img src="assets/services/landing.png" alt="High converting marketing single page displaying bold CTAs" class="service-card-img" loading="lazy">
+          </div>
+          <div class="service-card-content">
+            <h3 class="service-card-title">Landing Pages</h3>
+            <p class="service-card-desc">High-converting single-page marketing funnels engineered specifically to capture product sign-ups, email list building, and product sales.</p>
+            <a href="#contact" class="service-card-link">
+              Start Project 
+              <svg width="12" height="12" viewBox="0 0 24 24"><path d="M5 3l3.057-3 11.943 12-11.943 12-3.057-3 9-9z"/></svg>
+            </a>
+          </div>
+        </article>
+        
+        <!-- Service Card 5: Website Revamps -->
+        <article class="service-card reveal">
+          <div class="service-card-img-wrapper">
+            <img src="assets/services/revamp.png" alt="Sleek comparison of outdated site versus new glowing layout" class="service-card-img" loading="lazy">
+          </div>
+          <div class="service-card-content">
+            <h3 class="service-card-title">Website Revamps</h3>
+            <p class="service-card-desc">Breathe new life into your existing outdated site. We optimize UI design patterns, improve loading speeds, and implement mobile responsiveness.</p>
+            <a href="#contact" class="service-card-link">
+              Start Project 
+              <svg width="12" height="12" viewBox="0 0 24 24"><path d="M5 3l3.057-3 11.943 12-11.943 12-3.057-3 9-9z"/></svg>
+            </a>
+          </div>
+        </article>
+        
+        <!-- Service Card 6: Maintenance & Support -->
+        <article class="service-card reveal">
+          <div class="service-card-img-wrapper">
+            <img src="assets/services/maintenance.jpg" alt="Admin web dashboard detailing server analytics and system security controls" class="service-card-img" loading="lazy">
+          </div>
+          <div class="service-card-content">
+            <h3 class="service-card-title">Maintenance &amp; Support</h3>
+            <p class="service-card-desc">Continuous technical upkeep, security monitoring, database backups, host optimization, and direct debugging so you can focus on core operations.</p>
+            <a href="#contact" class="service-card-link">
+              Start Project 
+              <svg width="12" height="12" viewBox="0 0 24 24"><path d="M5 3l3.057-3 11.943 12-11.943 12-3.057-3 9-9z"/></svg>
+            </a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- --- Process Section --- -->
+  <section class="process-section" id="process">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">How We Work</span>
+        <h2 class="section-title"><span class="chrome-text-silver">Simple Steps to</span> <span class="chrome-text-purple">Success</span></h2>
+        <p class="section-subtitle">We believe in transparent operations and zero technical confusion. Here is our process from first handshake to deployment.</p>
+      </div>
+      
+      <div class="process-container reveal">
+        <!-- Connecting indicator line -->
+        <div class="process-line-bg" id="timeline-line">
+          <div class="process-line-fill" id="timeline-fill"></div>
+        </div>
+        
+        <div class="process-grid">
+          <!-- Step 1: Discover -->
+          <div class="process-step">
+            <div class="process-node">01</div>
+            <h3 class="process-step-title">Discover</h3>
+            <p class="process-step-desc">We discuss your business requirements, objectives, target audience, and layout preferences over a direct call.</p>
+          </div>
+          
+          <!-- Step 2: Design -->
+          <div class="process-step">
+            <div class="process-node">02</div>
+            <h3 class="process-step-title">Design</h3>
+            <p class="process-step-desc">We structure UI wireframes and visual design proposals tailored to match your precise brand guidelines.</p>
+          </div>
+          
+          <!-- Step 3: Build -->
+          <div class="process-step">
+            <div class="process-node">03</div>
+            <h3 class="process-step-title">Build</h3>
+            <p class="process-step-desc">We write clean, high-performance, responsive code structure with continuous testing cycles for robustness.</p>
+          </div>
+          
+          <!-- Step 4: Launch -->
+          <div class="process-step">
+            <div class="process-node">04</div>
+            <h3 class="process-step-title">Launch</h3>
+            <p class="process-step-desc">We set up DNS routes, compile optimization bundles, deploy production pages, and hand over files.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- --- Contact / Footer Section --- -->
+  <section class="contact-section" id="contact">
+    <!-- Faint background circuit trace overlay for footer -->
+    <div class="circuit-overlay" aria-hidden="true">
+      <svg class="circuit-svg" viewBox="0 0 1440 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <linearGradient id="pulse-grad-footer" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#C77DFF" stop-opacity="0" />
+            <stop offset="50%" stop-color="#B026FF" stop-opacity="1" />
+            <stop offset="100%" stop-color="#9D5CFF" stop-opacity="0" />
+          </linearGradient>
+        </defs>
+        
+        <!-- Horizontal Footer Line -->
+        <path class="circuit-line line-1 delay-3" d="M-50,600 L400,600 L500,700 L940,700 L1040,600 L1500,600" stroke="rgba(157, 92, 255, 0.08)" stroke-width="1.5" />
+        <path class="circuit-pulse line-1 delay-3" d="M-50,600 L400,600 L500,700 L940,700 L1040,600 L1500,600" stroke="url(#pulse-grad-footer)" stroke-width="2" />
+        
+        <!-- Top Footer Line -->
+        <path class="circuit-line line-2 delay-1" d="M1500,200 L1100,200 L980,80 L460,80 L340,200 L-50,200" stroke="rgba(157, 92, 255, 0.08)" stroke-width="1.5" />
+        <path class="circuit-pulse line-2 delay-1" d="M1500,200 L1100,200 L980,80 L460,80 L340,200 L-50,200" stroke="url(#pulse-grad-footer)" stroke-width="2" />
+        
+        <circle class="circuit-node node-1 delay-2" cx="500" cy="700" r="4.5" fill="#B026FF" />
+        <circle class="circuit-node node-2 delay-4" cx="940" cy="700" r="4" fill="#9D5CFF" />
+        <circle class="circuit-node node-3 delay-1" cx="980" cy="80" r="4.5" fill="#B026FF" />
+        <circle class="circuit-node node-4 delay-3" cx="460" cy="80" r="4" fill="#9D5CFF" />
+      </svg>
+    </div>
+
+    <div class="container">
+      <div class="contact-card reveal">
+        <!-- Circular logo image with glow -->
+        <img src="assets/logo.jpg" alt="IK_PEDIA logo circular emblem" class="contact-logo">
+        
+        <h2 class="contact-title">
+          <span class="chrome-text-silver">Ready to get your</span><br>
+          <span class="chrome-text-purple">website built?</span>
+        </h2>
+        <p class="contact-subtitle">
+          Skip the endless loops of complex code speak. Let's make it direct, simple, and premium. Reach out to start your project.
+        </p>
+        
+        <!-- Social Messaging CTAs -->
+        <div class="contact-buttons">
+          <a href="https://wa.me/919999999999?text=Hi%20IK_PEDIA,%20I'm%20interested%20in%20building%20a%20website!" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp">
+            <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946C.06 5.348 5.397.01 12.008.01c3.202.001 6.212 1.246 8.477 3.514 2.266 2.268 3.507 5.28 3.505 8.484-.004 6.657-5.34 11.997-11.953 11.997-2.005-.001-3.973-.504-5.724-1.465L0 24zm6.59-4.846c1.6.95 3.188 1.449 4.825 1.451 5.436 0 9.86-4.37 9.864-9.799.002-2.63-1.023-5.101-2.885-6.966a9.9 9.9 0 0 0-6.979-2.898c-5.443 0-9.866 4.372-9.87 9.802 0 1.814.498 3.59 1.442 5.141L1.92 20.894l4.727-1.74zm11.455-5.062c-.3-.149-1.772-.874-2.047-.975-.275-.101-.476-.149-.675.149-.198.3-.77.975-.944 1.174-.173.199-.348.224-.648.075-3.004-1.5-4.943-3.136-5.753-4.529-.214-.37-.023-.57.162-.756.166-.167.3-.349.45-.523.149-.174.199-.3.3-.498.1-.199.05-.373-.025-.522-.075-.149-.675-1.625-.925-2.224-.244-.589-.493-.51-.675-.519-.173-.009-.373-.01-.573-.01-.2 0-.525.075-.8.373-.275.3-1.05 1.025-1.05 2.5s1.075 2.9 1.225 3.1c.15.2 2.11 3.224 5.112 4.522.714.309 1.272.494 1.707.632.719.228 1.373.196 1.89.119.577-.087 1.772-.724 2.022-1.424.25-.7.25-1.3.175-1.424-.075-.124-.275-.199-.575-.348z"/></svg>
+            Message on WhatsApp
+          </a>
+          <a href="https://instagram.com/ik_pedia" target="_blank" rel="noopener noreferrer" class="btn btn-instagram">
+            <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.051.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.406-11.845a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881z"/></svg>
+            DM on Instagram
+          </a>
+        </div>
+        
+        <span class="social-handle">Instagram DM: <span>@ik_pedia</span></span>
+      </div>
+
+      <!-- --- Footer Bar --- -->
+      <footer class="footer-bar">
+        <div class="footer-copyright">
+          &copy; 2026 IK_PEDIA. Tech Made Simple. All rights reserved.
+        </div>
+        <div class="footer-socials">
+          <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="footer-social-link" aria-label="GitHub">
+            <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+          </a>
+          <a href="https://instagram.com/ik_pedia" target="_blank" rel="noopener noreferrer" class="footer-social-link" aria-label="Instagram">
+            <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.051.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.406-11.845a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881z"/></svg>
+          </a>
+          <a href="https://wa.me/919999999999" target="_blank" rel="noopener noreferrer" class="footer-social-link" aria-label="WhatsApp">
+            <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946C.06 5.348 5.397.01 12.008.01c3.202.001 6.212 1.246 8.477 3.514 2.266 2.268 3.507 5.28 3.505 8.484-.004 6.657-5.34 11.997-11.953 11.997-2.005-.001-3.973-.504-5.724-1.465L0 24zm6.59-4.846c1.6.95 3.188 1.449 4.825 1.451 5.436 0 9.86-4.37 9.864-9.799.002-2.63-1.023-5.101-2.885-6.966a9.9 9.9 0 0 0-6.979-2.898c-5.443 0-9.866 4.372-9.87 9.802 0 1.814.498 3.59 1.442 5.141L1.92 20.894l4.727-1.74zm11.455-5.062c-.3-.149-1.772-.874-2.047-.975-.275-.101-.476-.149-.675.149-.198.3-.77.975-.944 1.174-.173.199-.348.224-.648.075-3.004-1.5-4.943-3.136-5.753-4.529-.214-.37-.023-.57.162-.756.166-.167.3-.349.45-.523.149-.174.199-.3.3-.498.1-.199.05-.373-.025-.522-.075-.149-.675-1.625-.925-2.224-.244-.589-.493-.51-.675-.519-.173-.009-.373-.01-.573-.01-.2 0-.525.075-.8.373-.275.3-1.05 1.025-1.05 2.5s1.075 2.9 1.225 3.1c.15.2 2.11 3.224 5.112 4.522.714.309 1.272.494 1.707.632.719.228 1.373.196 1.89.119.577-.087 1.772-.724 2.022-1.424.25-.7.25-1.3.175-1.424-.075-.124-.275-.199-.575-.348z"/></svg>
+          </a>
+          <a href="mailto:ikpedia@gmail.com" class="footer-social-link" aria-label="Email">
+            <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M0 3v18h24v-18h-24zm6.623 7.929l-4.623 3.937v-8.193l4.623 4.256zm1.455 1.341l3.922 3.61c.204.188.513.188.716 0l3.922-3.61 5.485 5.73h-19.53l5.485-5.73zm1.423-1.523l-7.501-6.911h19.832l-7.5 6.91c-.433.4-.997.6-1.566.6s-1.133-.2-1.566-.599zm6.876.182l4.623-4.256v8.193l-4.623-3.937z"/></svg>
+          </a>
+        </div>
+      </footer>
+    </div>
+  </section>
+
+  <!-- Script tags -->
+  <script src="script.js"></script>
+</body>
+</html>
